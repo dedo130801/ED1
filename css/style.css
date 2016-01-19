@@ -2,6 +2,128 @@ body{
 	font-family: Arial
 }
 
+#barra{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    right: 0px;
+    
+    padding-left: 30px;
+    padding-right: 30px;
+
+    vertical-align: middle;
+
+    color: rgb(34, 34, 34);
+}
+
+.link{
+
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    padding-left: 15px;
+    vertical-align: middle;
+    text-decoration: none;
+    float: right;
+    color: black;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.name{
+    
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 10px; 
+    vertical-align: middle;
+    text-decoration: none;
+
+    float: right;
+    margin-bottom: 14px;
+    color: gray;
+
+}
+
 #logo{ 
-	background: url(../img/logo.jpg) no-repeat;
+	background: url(../img/logo3.png) no-repeat;
+}
+
+.subtexto{
+	color: #4285f4;
+    font: 16px, arial;
+    left: 215px;
+    position: relative;
+    top: 76px;
+}
+.uno{ 
+	padding-bottom: 2px;
+    padding-top: 3px;
+    width: 638px;
+    position: relative;
+}
+.dos{ 
+	line-height: 0;
+    max-width: 550px;
+    overflow: visible;
+}
+
+.bus{ 
+	width: 100%;
+    height: 25px;
+    padding-left: 10px;
+}
+
+.botones{
+    padding-top: 25px;
+}
+
+#bot{
+    margin-right: 15px;
+    height: 30px;
+    background-color: #f2f2f2;
+    border: 1px solid #c6c6c6;
+    font-weight: bold;
+}
+#esp{
+    color: #1a0dab;
+    text-decoration: none;
+}
+footer
+{
+    font-family: arial;
+    font-size: small;
+    background-color: #f2f2f2;
+    border-top: 2px solid #e4e4e4;
+    line-height: 45px;
+    height: 45px;
+    position: absolute;
+    width: 100%;
+    color: #222;
+    left: 0px;
+    bottom: 0;
+}
+
+a
+{
+    color: gray;
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+span
+{
+    margin-left: 25px;
+    margin-right: 25px;~
+}
+
+#der
+{
+    float: right;
 }
